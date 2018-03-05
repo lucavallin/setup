@@ -1,6 +1,6 @@
 # VSCode Setup
 
-> Personal setup for VSCode.
+> Personal setup for VSCode: PHP, JS, Go, Heroku and a bunch of other things.
 
 In this repo you can find my VSCode settings, extensions, and a script to install the extensions from the list you get with `code --list-extensions`.
 
