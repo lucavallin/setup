@@ -6,7 +6,7 @@ In this repo you can find my VSCode settings, extensions, and a script to instal
 
 ## How to run the script
 
-`./vscode-ext-install.sh` vscode.extensions
+`./vscode-ext-install.sh vscode.extensions`
 
 That's it!
 
