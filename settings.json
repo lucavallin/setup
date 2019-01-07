@@ -5,7 +5,7 @@
     "sync.autoUpload": true,
     "sync.lastDownload": "",
     "sync.forceDownload": false,
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.formatOnType": false,
     "editor.formatOnPaste": false,
     "editor.suggestOnTriggerCharacters": true,
