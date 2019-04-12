@@ -52,12 +52,9 @@ mikestead.dotenv
 mkaufman.HTMLHint
 mohsen1.prettify-json
 mrmlnc.vscode-attrs-sorter
-ms-azuretools.vscode-azurefunctions
-ms-azuretools.vscode-cosmosdb
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.anaconda-extension-pack
 ms-python.python
-ms-vscode.azure-account
 ms-vscode.cpptools
 ms-vscode.csharp
 ms-vscode.Go
