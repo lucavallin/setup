@@ -1,12 +1,14 @@
 abusaidm.html-snippets
 alefragnani.project-manager
 austin.code-gnu-global
+bmewburn.vscode-intelephense-client
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 cmstead.jsrefactor
 codezombiech.gitignore
 CoenraadS.bracket-pair-colorizer
 cssho.vscode-svgviewer
+Dart-Code.dart-code
 DavidAnson.vscode-markdownlint
 daylerees.rainglow
 dbaeumer.vscode-eslint
@@ -45,6 +47,7 @@ marus25.cortex-debug
 mikestead.dotenv
 mkaufman.HTMLHint
 mohsen1.prettify-json
+monokai.theme-monokai-pro-vscode
 mrmlnc.vscode-attrs-sorter
 ms-azuretools.vscode-docker
 ms-dotnettools.csharp
@@ -59,6 +62,7 @@ msjsdiag.debugger-for-chrome
 msjsdiag.vscode-react-native
 naumovs.color-highlight
 neilbrayfield.php-docblocker
+octref.vetur
 Orta.vscode-jest
 particle.particle-vscode-core
 particle.particle-vscode-pack
@@ -68,6 +72,7 @@ PKief.material-icon-theme
 platformio.platformio-ide
 pranaygp.vscode-css-peek
 redhat.java
+redhat.vscode-yaml
 ritwickdey.LiveServer
 robinbentley.sass-indented
 ryu1kn.partial-diff
