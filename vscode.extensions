@@ -34,9 +34,6 @@ ikappas.composer
 ikappas.phpcs
 itryapitsin.Scala
 jasonnutter.search-node-modules
-jeremyrajan.webpack
-JerryHong.autofilename
-jinsihou.diff-tool
 jock.svg
 joelday.docthis
 KnisterPeter.vscode-github
@@ -79,7 +76,6 @@ ryu1kn.partial-diff
 Shan.code-settings-sync
 shd101wyy.markdown-preview-enhanced
 shinnn.stylelint
-sporiley.css-auto-prefix
 steoates.autoimport
 stkb.rewrap
 streetsidesoftware.code-spell-checker
