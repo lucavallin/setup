@@ -52,7 +52,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history web-search docker go composer laravel symfony brew osx terminalapp)
+plugins=(git histor go brew)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -85,11 +85,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Go
-export GOROOT=/usr/local/opt/go/libexec/
-export GOPATH=$HOME/Projects/Go/
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-
 # aliases
 alias lah='ls -lah'
 alias gs='git status'
@@ -99,10 +94,16 @@ alias gp='git push'
 alias gl='git pull'
 alias gm='git merge'
 
-# Android
-alias emulator='/Users/luca/Library/Android/sdk/emulator/emulator -avd Pixel_2_API_28'
-export ANDROID_SDK="/Users/luca/Library/Android/sdk"
-export PATH="/Users/luca/Library/Android/sdk/platform-tools:$PATH"
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+alias python=/usr/local/bin/python3
+alias pip=/usr/local/bin/pip3
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+# Rust
+export PATH=$HOME/.cargo/bin:$PATH
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/bin/gcloud/path.zsh.inc' ]; then . '/usr/local/bin/gcloud/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/bin/gcloud/completion.zsh.inc' ]; then . '/usr/local/bin/gcloud/completion.zsh.inc'; fi
